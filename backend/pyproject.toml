@@ -1,0 +1,22 @@
+[project]
+name = "certificate-generator-backend"
+version = "0.1.0"
+description = "FastAPI backend for the Certificate Generator MVP"
+requires-python = ">=3.11"
+dependencies = [
+  "fastapi",
+  "uvicorn[standard]",
+  "SQLAlchemy",
+  "pydantic",
+  "pydantic-settings",
+  "python-multipart",
+  "pandas",
+  "openpyxl",
+  "Pillow",
+  "PyMuPDF",
+  "arabic-reshaper",
+  "python-bidi",
+]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

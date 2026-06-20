@@ -1,0 +1,12 @@
+fastapi
+uvicorn[standard]
+SQLAlchemy
+pydantic
+pydantic-settings
+python-multipart
+pandas
+openpyxl
+Pillow
+PyMuPDF
+arabic-reshaper
+python-bidi
